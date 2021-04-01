@@ -1,4 +1,5 @@
 .top-menu-bar {
   background-color: blue;
   position: relative;
+  border-bottom: 2px solid black;
 }

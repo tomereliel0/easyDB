@@ -1,6 +1,10 @@
 .canvas {
-  border: 5px solid red;
-  height: 720px;
-  width: 1024px;
-  top: 100px;
+  border: 2px solid black;
+  height: 100%;
+  background-color: khaki;
+}
+.canvas-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
 }

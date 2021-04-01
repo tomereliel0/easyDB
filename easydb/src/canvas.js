@@ -26,7 +26,7 @@ export default class Canvas extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="canvas-container">
         <div
           className="canvas"
           onMouseMove={this._onMouseMove.bind(this)}
