@@ -23,6 +23,7 @@ export default class Canvas extends React.Component {
       y: e.nativeEvent.offsetY - 15,
     });
   }
+
   render() {
     return (
       <div>
@@ -30,11 +31,7 @@ export default class Canvas extends React.Component {
           className="canvas"
           onMouseMove={this._onMouseMove.bind(this)}
           onClick={this.addBlock.bind(this)}
-        >
-          <h1>
-            x: {this.state.x} y: {this.state.y}
-          </h1>
-        </div>
+        ></div>
         <div>{this.state.blocks}</div>
       </div>
     );
