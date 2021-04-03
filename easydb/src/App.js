@@ -1,15 +1,17 @@
 import "./App.css";
-import Block from "./block";
 import Canvas from "./canvas";
 import TopMenuBar from "./topMenuBar";
-import Draggable from "react-draggable";
+import { useState } from "react";
+
 function App() {
+  const [flag, setFlag] = useState(false);
+
   return (
     <div className="App">
-      <TopMenuBar />
-      <Canvas />
+      <TopMenuBar setFlag={setFlag} flag={flag} />
+
+      <Canvas setFlag={setFlag} flag={flag} />
     </div>
   );
 }
-
 export default App;

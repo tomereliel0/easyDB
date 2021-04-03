@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgb(148, 60, 60);
+  background: rgb(255, 255, 255);
   border: 1px solid black;
   text-align: center;
   padding: 10px;
@@ -12,6 +12,7 @@
   margin-bottom: 10px;
   overflow: hidden;
   margin: 20px;
+  border-radius: 10px;
 }
 .react-resizable-handle {
   position: absolute;
@@ -31,8 +32,8 @@
   transform: rotate(90deg);
 }
 .react-resizable-handle-se {
-  bottom: 0;
-  right: 0;
+  bottom: 5px;
+  right: 5px;
   cursor: se-resize;
 }
 .react-resizable-handle-nw {
